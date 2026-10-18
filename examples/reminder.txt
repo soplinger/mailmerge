@@ -1,0 +1,8 @@
+Dear {{first|title}} {{last|title}},
+
+Your {{event|trim}} is booked for {{date}} at {{time|default:"7:00 pm"}}.
+{{#if seat}}Your seat is {{seat|upper}}.{{/if}}
+{{#unless seat}}We will seat you when you arrive.{{/unless}}
+{{#if deposit}}A deposit of ${{deposit|money}} has been received. Thank you.{{/if}}
+
+Please reply by {{rsvp_by}} if you cannot attend.
